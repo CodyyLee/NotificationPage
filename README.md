@@ -14,8 +14,6 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
   - [Continued development](#continued-development)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -42,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/solution-vanilla-js-flexbox-notification-page1440x900-and-375x667-58w7oIBCCd](https://www.frontendmentor.io/solutions/solution-vanilla-js-flexbox-notification-page1440x900-and-375x667-58w7oIBCCd)
-- Live Site URL: [https://wonderful-pie-de93ed.netlify.app/](https://wonderful-pie-de93ed.netlify.app/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/solution-vanilla-js-flexbox-notification-page1440x900-and-375x667-58w7oIBCCd)
+- Live Site URL: [Deployment](https://wonderful-pie-de93ed.netlify.app/)
 
 ## My process
 
