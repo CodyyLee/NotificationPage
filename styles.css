@@ -1,0 +1,245 @@
+@font-face {
+    font-family: PlusJakartaSans;
+    src: url('./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: PlusJakartaSans-Medium;
+    src: url('./assets/fonts/static/PlusJakartaSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: PlusJakartaSans-Bold;
+    src: url('./assets/fonts/static/PlusJakartaSans-ExtraBold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:hsl(210, 60%, 98%);
+}
+
+.notifications {
+    /* margin: 2vh auto; */
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: 9vh;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.title {
+    font-family: PlusJakartaSans-Bold;
+}
+
+.badge {
+    background: hsl(219, 85%, 26%);
+    font-weight: 800;
+    font-family: PlusJakartaSans;
+    color:hsl(211, 68%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    width: 30px;
+    font-size: 18px;
+    padding: 1% 9%;
+    padding-bottom: 2%;
+}
+
+.markBtn {
+    background: none;
+    border: none;
+    color:hsl(219, 12%, 42%);
+    font-size: 16px;
+    font-family: PlusJakartaSans-Medium;
+}
+
+.notificationList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.notification,
+.unread {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    margin: 1.5% 0;
+    border-radius: 10px;
+    padding: 5% 2%;
+    font-family: PlusJakartaSans-Medium;
+}
+
+.unread {
+    background: hsl(210, 60%, 98%);
+}
+
+.profileImg {
+    width: 42px;
+    height: 42px;
+    margin: 3%;
+    position: absolute;
+    top: 10px;
+    left: 1%;
+}
+
+.content {
+    width: 100%;
+    margin-left: 19%;
+}
+
+.text {
+    width: 100%;
+    color: hsl(219, 12%, 42%);
+    font-size: 16px;
+    font-family: PlusJakartaSans-Medium;
+}
+
+.name {
+    font-family: PlusJakartaSans-Bold;
+    color: black;
+}
+
+.name:hover,
+.post:hover,
+.group:hover,
+.markBtn:hover,
+.name:focus,
+.post:focus,
+.group:focus,
+.markBtn:focus {
+    color:hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+.post {
+    font-family: PlusJakartaSans-Bold;
+    color: hsl(219, 12%, 42%);
+}
+
+.group {
+    font-family: PlusJakartaSans-Bold;
+    color: hsl(219, 85%, 26%);
+}
+
+.new {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: hsl(1, 90%, 64%);
+    display: inline-block;
+    margin: 2px;
+    margin-left: 5px;
+}
+
+.time {
+    opacity: 0.5;
+    padding-top: 3px;
+    font-family: PlusJakartaSans-Medium;
+}
+
+.message {
+    border: 1px solid hsl(205, 33%, 90%);
+    margin:  10px 0;
+    border-radius: 5px;
+}
+
+.message .text {
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+    font-family: PlusJakartaSans-Medium;
+}
+
+.message:hover,
+.message:focus {
+    background: hsl(211, 68%, 94%);
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+}
+
+.image:hover,
+.message:hover,
+.image:focus,
+.message:focus {
+    cursor: pointer;
+}
+
+.attribution {
+    margin-top: 20vh;
+    text-align: center;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1440px) {
+    .notifications {
+        width: 54vw;
+        border-radius: 10px;
+        margin: 6vh auto;
+    }
+
+    .header {
+        width: 90%;
+    }
+
+    .titleContainer {
+        width: 28%;
+    }
+
+    .badge {
+        padding: 1% 9% 2% 9%;
+        font-size: 16px;
+    }
+
+    .notification {
+        padding: 2.5% 2%;
+        margin: .5%;
+        width: 90%;
+    }
+
+    .profileImg {
+        top: 0;
+    }
+
+    .content {
+        margin-left: 12%;
+    }
+
+    .message {
+        width: 99%;
+        padding-left: 1%;
+    }
+
+    .image {
+        margin-top: -3px;
+    }
+}
