@@ -41,7 +41,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/solution-vanilla-js-flexbox-notification-page1440x900-and-375x667-58w7oIBCCd)
-- Live Site URL: [Deployment](https://wonderful-pie-de93ed.netlify.app/)
+- Live Site URL: [Deployment](https://notificationchallenge.netlify.app)
 
 ## My process
 
